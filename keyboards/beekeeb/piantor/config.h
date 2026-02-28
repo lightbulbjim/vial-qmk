@@ -10,3 +10,6 @@
 #define SERIAL_USART_FULL_DUPLEX
 #define SERIAL_USART_TX_PIN GP0
 #define SERIAL_USART_RX_PIN GP1
+
+// Fix(?) for no wakeup on Intel MacBook
+#define USB_SUSPEND_WAKEUP_DELAY 200
